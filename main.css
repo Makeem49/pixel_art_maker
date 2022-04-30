@@ -1,0 +1,108 @@
+body{
+    text-align: center;
+    font-family: 'Harmattan', sans-serif;
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 70px;
+    margin: 0.3em;
+}
+
+#pixelForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=number] {
+    border-radius: 6px;
+}
+
+form{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 0px 0px 25px 0px;
+}
+
+label{
+    font-size: 13pt;
+}
+
+input[type=number] {
+    width: 6em;
+    padding: 7px 0px 7px 7px;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    width: 5em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 0 10px;
+}
+
+tr {
+    height: 20px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+td {
+    width: 20px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+    transition: .9s ease-in-out;
+}
+
+.material-icons{
+    cursor: pointer;
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 500px) {
+    #pixelForm,
+    input,
+    label{
+        font-size: 16pt;
+    }
+
+    form{
+        width:70%;
+    }
+}
+
+@media screen and (min-width: 590px) {
+    h1{
+        font-size: 35pt;
+    }
+
+    #pixelForm,
+    input,
+    label{
+        font-size: 12pt;
+    }
+
+    form{
+        width: 40%;
+    }
+}
