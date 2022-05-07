@@ -53,7 +53,7 @@ const colorGrid=(action)=>{
     var colorInput = document.querySelector('#colorPicker').value;
     if (action.target.nodeName.toLowerCase() === 'td'){
         action.target.setAttribute('style', 'background-color : '+colorInput+'');
-        isisColorCounter = true;
+        isColorCounter = true;
     }
     submitButton.addEventListener('click', makeGrid);
 }
